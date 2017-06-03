@@ -1,0 +1,7 @@
+goup_repository_homepage:
+    path:     /
+    defaults: { _controller: GoupRepositoryBundle:Default:index }
+
+app_repository:
+    resource: "@GoupRepositoryBundle/Controller/TestController.php"
+    type: annotation

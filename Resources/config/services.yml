@@ -1,0 +1,4 @@
+services:
+#    goup_repository.example:
+#        class: Goup\RepositoryBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

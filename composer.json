@@ -1,0 +1,23 @@
+{
+    "name": "root/repository-bundle",
+    "target-dir": "Goup/RepositoryBundle",
+    "description": "generic repository based on doctrine",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zied Ben Hadj Amor",
+            "email": "mr.bha.zied@gmail.com"
+        }
+    ],
+    "autoload": {
+      "psr-4":{
+          "Goup\\RepositoryBudle": ""
+      }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php" : ">=5.6.0",
+        "doctrine/doctrine-bundle" : "*"
+
+    }
+}
